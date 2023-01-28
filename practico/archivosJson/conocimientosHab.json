@@ -1,0 +1,10 @@
+{
+    "Conocimientos y Habilidades":{
+        "Conocimiento 1": "Conocimientos en Lenguajes de Programación: Pseudocodigo, Visual Basic 6.0, C-C++, Java, Javascript, PHP, PHP orientado a Objetos M.V.C.",
+        "Conocimiento 2": "Conocimientos basicos en Front-End: HTML5, CSS, CSS Responsive",
+        "Conocimiento 3": "Conocimiento en Base de Datos: Conexión a Base de Datos, MySql, SQL",
+        "Conocimiento 4": "Conocimientos basicos/teoricos en Redes Informaáticas",
+        "Conocimiento 5": "Conocimientos en Distribuciones GNU/Linux",
+        "Conocimiento 6":"Conocimiento básico en Ingles/Ingles Técnico"
+    }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="practico\estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />    
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+<title>Mi CV</title>
+</head>
+<body onload="datosPersonales()">
+    <div class="container">
+        <header class="header">
+            <div class="mi-cv">Mi CV</div><div class="imagen"></div>
+        </header>
+        <aside class="aside">
+            <ul>
+                <li><button onclick="datosPersonales()">Datos Personales</button></li>
+                <li><button onclick="estudios()">Estudios</button></li>
+                <li><button onclick="capacitaciones()">Capacitaciones</button></li>
+                <li><button onclick="otrosCursos()">Otros Cursos</button></li>
+                <li><button onclick="antecedentesLaborales()">Antecedentes Laborales</button></li>
+                <li><button onclick="conocimientos()">Conocimientos</button></li>
+                <li><button onclick="otrosDatos()">Otros Datos</button></li>
+            </ul>
+            
+        </aside>
+        <main class="main"><div class="contenido" id="info"></div></main>
+        <footer class="footer">
+        <div class="redes-sociales">
+            MIS REDES SOCIALES
+            <div class="redes-sociales2">
+                <a href="#"><div class="linkedin"></div></a>
+                <a href="#"><div class="facebook"></div></a>
+                <a href="#"><div class="instagram"></div></a>
+                <a href="#"><div class="twitter"></div></a>
+            </div>
+        </div>
+        <div class="contacto">
+            CONTACTO
+                <div>anhornlem@gmail.com</div>
+                <div>+5492942557661</div>
+        </div>
+        </footer>
+        <script src="https://leandroemanuel2023.github.io/practico-web/practico/js/ajax.js"></script>
+    </div>
+</body>
+</html>
